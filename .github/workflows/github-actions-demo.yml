@@ -1,5 +1,6 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+#设置触发分支，只有 master 分支推送才能触发
 on:
   push:
     branches:
